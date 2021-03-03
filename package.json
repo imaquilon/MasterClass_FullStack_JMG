@@ -1,0 +1,11 @@
+{
+    "name": "masterclass-fullstack",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "cd backend && npm install && npm run deploy",
+        "heroku-postbuild": "cd frontend && npm install && npm run build"
+    },
+    "engines": {
+        "node": "14.16.0"
+    }
+}
